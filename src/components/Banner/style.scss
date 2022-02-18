@@ -1,0 +1,23 @@
+.bannerWrapper {
+  background-image: url("../../../public/assets/Banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 75vh;
+  position: relative;
+  font-family: Roboto, sans-serif;
+  @media (max-width: 600px) {
+    background-position: center center;
+    min-height: 55vh;
+  }
+  h1 {
+    position: absolute;
+    top: 2rem;
+    left: 3rem;
+    font-size: 3.5rem;
+    color: white;
+    @media (max-width: 600px) {
+      font-size: 1.5rem;
+      left: 20%;
+    }
+  }
+}
